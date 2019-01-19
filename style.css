@@ -1,3 +1,37 @@
+body {
+	background-color: #EEEEEE;
+}
+
+#wrapper {
+	max-width: 1680px;
+	margin-left: auto;
+	margin-right: auto;
+
+	padding: 0;
+}
+
+.banner {
+	background-attachment: fixed;
+	background-position-x: center;
+
+	width: 100%;
+	min-height: 300px;
+}
+
+.banner.top {
+	background-image: url("imgs/banner_top.png");
+}
+
+.banner.bottom {
+	background-image: url("imgs/banner_bottom.png");
+	background-position-y: bottom;
+}
+
+.banner-header {
+	padding-top: 1em !important;
+	font-size: 5em !important;
+}
+
 .content {
 	padding-left: 2em;
 	padding-right: 2em;
@@ -9,19 +43,6 @@
 
 .main-content {
 	padding-top: 2em;
-}
-
-.banner {
-	background-image: url("imgs/tulip_banner.png");
-	background-attachment: fixed;
-
-	width: 100%;
-	min-height: 250px;
-}
-
-.banner-header {
-	padding-top: 1em !important;
-	font-size: 5em !important;
 }
 
 .section-header-v1 {
